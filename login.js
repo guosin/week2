@@ -17,6 +17,7 @@ const app={
         })
         .catch((err)=>{
             console.log(err)
+            alert('帳號或密碼錯誤請重新輸入')
         })
      }
    }
